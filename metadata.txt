@@ -9,7 +9,7 @@
 [general]
 name=Maa-ameti fotoladu
 qgisMinimumVersion=2.0
-description=Maa-ameti fotolao piltide kuvamine Qgis-is
+description=Maa-ameti fotoladu Qgis-is
 version=0.1
 author=Priit Voolaid
 email=priit.voolaid@gmail.com
