@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Maa-ameti fotoladu
+qgisMinimumVersion=2.0
+description=Maa-ameti fotolao piltide kuvamine Qgis-is
+version=0.1
+author=Priit Voolaid
+email=priit.voolaid@gmail.com
+
+about=Fotoladu kuvab QGIS kaardiaknas esinevate Maa-ameti fotolao (http://www.maaamet.ee/fotoladu) piltide asukohad. Selleks tekitatakse ajutine kiht piltide punktiparvega ja seadistatakse kihil olevate punktidega seotud rakendus (action) aerofoto kuvamiseks brauseris.
+
+tracker=https://github.com/lefkin/fotoladu
+repository=https://github.com/lefkin/fotoladu
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=webservice
+
+homepage=https://github.com/lefkin/fotoladu
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
