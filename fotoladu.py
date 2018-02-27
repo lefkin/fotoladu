@@ -3,7 +3,8 @@
 /***************************************************************************
  Fotoladu
                                  A QGIS plugin
- Maa-ameti fotolao piltide kuvamine Qgis-is
+ 
+ Explore Estonian Land Board aerial photography in QGis!
                               -------------------
         begin                : 2017-11-27
         git sha              : $Format:%H$
