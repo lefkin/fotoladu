@@ -138,7 +138,7 @@ class Fotoladu:
 
 
     def run(self):
-       ### Tekita ajutine punktide kiht, mis sisaldab fotode asukohta
+       ### Create temporary layer for photo locations
         layer = QgsVectorLayer("Point?crs=epsg:4326", "fotoladu", "memory")
 
         provider = layer.dataProvider()
@@ -150,7 +150,7 @@ class Fotoladu:
 
         layer.updateFields()
 
-        ### Koosta fotolattu saadetav päring, mis piiritleb päringuala ulatuse ja saab vastuseks selles sisalduvad fotod
+        ### Create a request for the server
 
         url_query = 'http://www.maaamet.ee/fotoladu/paring_db_cluster.php' 
 
@@ -193,7 +193,7 @@ class Fotoladu:
 
         layer.setRendererV2(renderer)
 
-        ### Create action for opening pictures
+        ### Create action for opening photos
         actions = layer.actions()
         url = 'http://www.maaamet.ee/fotoladu/[%"kaust"%]/hd/[%"fail"%]'
         actions.addAction(QgsAction.OpenUrl, 'Open_photo', url)
