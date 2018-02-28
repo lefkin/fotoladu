@@ -7,9 +7,9 @@
 # This file should be included when you package your plugin.# Mandatory items:
 
 [general]
-name=Maa-ameti fotoladu
+name=Photo depository
 qgisMinimumVersion=2.0
-description=Maa-ameti fotoladu Qgis-is
+description=Estonian Land Board aerial photos in Qgis
 version=0.1
 author=Priit Voolaid
 email=priit.voolaid@gmail.com
