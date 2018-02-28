@@ -124,10 +124,9 @@ class Fotoladu:
         icon_path = ':/plugins/Fotoladu/icon.png'
         self.add_action(
             icon_path,
-            text=u'Maa-ameti fotoladu',
+            text=u'Photo depository',
             callback=self.run,
             parent=self.iface.mainWindow())
-
 
     def unload(self):
         """Removes the plugin menu item and icon from QGIS GUI."""
